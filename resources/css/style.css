@@ -45,11 +45,6 @@ ul {
   list-style: inherit;
 }
 
-.standard {
-  background-color: #ffffff;
-  height: 100vh;
-}
-
 .jumbotron {
   background-color: #ffffff;
 }
@@ -65,7 +60,7 @@ ul {
 /** Media Queries Tablet and below**/
 @media only screen and (max-width: 576px) {
   h1.big-display {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .list-group-item {
     overflow: scroll;
