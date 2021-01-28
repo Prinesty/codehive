@@ -54,6 +54,14 @@ ul {
   background-color: #ffffff;
 }
 
+.card-header {
+  background-color: #d9d9d9;
+}
+
+.card-header a {
+  color: teal;
+}
+
 /** Media Queries Tablet and below**/
 @media only screen and (max-width: 576px) {
   h1.big-display {
