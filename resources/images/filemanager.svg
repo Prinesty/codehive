@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="654px" height="804px" viewBox="0 0 654 804" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>atom-filetree</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="16" y="106" width="622" height="25" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="622" height="25" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="16" y="129" width="622" height="278" rx="4"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="622" height="278" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="7" cy="7" r="7"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="14" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <circle id="path-7" cx="26" cy="7" r="7"></circle>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="14" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <circle id="path-9" cx="45" cy="7" r="7"></circle>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="14" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="267" y="544" width="120" height="40"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="40" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="393" y="626" width="120" height="40"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="40" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="393" y="686" width="120" height="40"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="40" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="atom-filetree">
+            <use id="Rectangle-2" stroke="#204056" mask="url(#mask-2)" stroke-width="4" fill-opacity="0.300000012" fill="#204056" xlink:href="#path-1"></use>
+            <use id="Rectangle-2-Copy" stroke="#204056" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+            <g id="icn-doc" transform="translate(55.000000, 180.000000)" fill="#204056">
+                <path d="M10,2.88888889 L7.14285714,0 L0,0 L0,13 L10,13 L10,2.88888889 L10,2.88888889 Z M7.14285714,1.53111111 L8.48571429,2.88888889 L7.14285714,2.88888889 L7.14285714,1.53111111 L7.14285714,1.53111111 Z M8.92857143,11.9166667 L1.07142857,11.9166667 L1.07142857,1.08333333 L6.42857143,1.08333333 L6.42857143,3.61111111 L8.92857143,3.61111111 L8.92857143,11.9166667 L8.92857143,11.9166667 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="2" y="5" width="6" height="1"></rect>
+                <rect id="Rectangle-path" x="2" y="7" width="6" height="1"></rect>
+                <rect id="Rectangle-path" x="2" y="9" width="6" height="1"></rect>
+                <rect id="Rectangle-path" x="5" y="12" width="1" height="1"></rect>
+            </g>
+            <g id="icn-doc-copy" transform="translate(95.000000, 256.000000)" fill="#204056">
+                <path d="M10,2.88888889 L7.14285714,0 L0,0 L0,13 L10,13 L10,2.88888889 L10,2.88888889 Z M7.14285714,1.53111111 L8.48571429,2.88888889 L7.14285714,2.88888889 L7.14285714,1.53111111 L7.14285714,1.53111111 Z M8.92857143,11.9166667 L1.07142857,11.9166667 L1.07142857,1.08333333 L6.42857143,1.08333333 L6.42857143,3.61111111 L8.92857143,3.61111111 L8.92857143,11.9166667 L8.92857143,11.9166667 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="2" y="5" width="6" height="1"></rect>
+                <rect id="Rectangle-path" x="2" y="7" width="6" height="1"></rect>
+                <rect id="Rectangle-path" x="2" y="9" width="6" height="1"></rect>
+                <rect id="Rectangle-path" x="5" y="12" width="1" height="1"></rect>
+            </g>
+            <g id="Group" transform="translate(26.000000, 112.000000)" stroke="#204056" stroke-width="2" fill="#FFFFFF">
+                <use id="Oval-2" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                <use id="Oval-2-Copy" mask="url(#mask-8)" xlink:href="#path-7"></use>
+                <use id="Oval-2-Copy-2" mask="url(#mask-10)" xlink:href="#path-9"></use>
+            </g>
+            <g id="icn-caret-down" transform="translate(36.000000, 159.000000)" fill="#204056">
+                <path d="M9,1.9865152 L7.21757813,0.03125 L4.491225,2.46365596 L1.81721191,0.0369509515 L0,1.9865152 C1.50249375,3.32115016 2.98988437,4.67518448 4.5,6 C6.00010312,4.66231144 7.50000937,3.32438339 9,1.9865152 Z" id="Shape"></path>
+            </g>
+            <g id="icn-caret-down-copy" transform="translate(56.000000, 210.000000)" fill="#204056">
+                <path d="M9,1.9865152 L7.21757813,0.03125 L4.491225,2.46365596 L1.81721191,0.0369509515 L0,1.9865152 C1.50249375,3.32115016 2.98988437,4.67518448 4.5,6 C6.00010312,4.66231144 7.50000937,3.32438339 9,1.9865152 Z" id="Shape"></path>
+            </g>
+            <g id="icn-caret-down-copy-2" transform="translate(76.000000, 235.000000)" fill="#204056">
+                <path d="M9,1.9865152 L7.21757813,0.03125 L4.491225,2.46365596 L1.81721191,0.0369509515 L0,1.9865152 C1.50249375,3.32115016 2.98988437,4.67518448 4.5,6 C6.00010312,4.66231144 7.50000937,3.32438339 9,1.9865152 Z" id="Shape"></path>
+            </g>
+            <path d="M56.6666667,156 L50,156 L50,167.785714 L65,167.785714 L65,157.683673 L58.3333333,157.683673 L56.6666667,156 L56.6666667,156 Z M51.0714286,157.071429 L56.1077658,157.071429 L56.9642857,158.142857 L51.0714286,158.142857 L51.0714286,157.071429 L51.0714286,157.071429 Z" id="icn-folder" fill="#204056"></path>
+            <path d="M76.6666667,207 L70,207 L70,218.785714 L85,218.785714 L85,208.683673 L78.3333333,208.683673 L76.6666667,207 L76.6666667,207 Z M71.0714286,208.071429 L76.1077658,208.071429 L76.9642857,209.142857 L71.0714286,209.142857 L71.0714286,208.071429 L71.0714286,208.071429 Z" id="icn-folder-copy" fill="#204056"></path>
+            <path d="M96.6666667,232 L90,232 L90,243.785714 L105,243.785714 L105,233.683673 L98.3333333,233.683673 L96.6666667,232 L96.6666667,232 Z M91.0714286,233.071429 L96.1077658,233.071429 L96.9642857,234.142857 L91.0714286,234.142857 L91.0714286,233.071429 L91.0714286,233.071429 Z" id="icn-folder-copy-2" fill="#204056"></path>
+            <text id="DevProject" font-family="SanFranciscoDisplay-Medium, San Francisco Display" font-size="13" font-weight="400" fill="#204056">
+                <tspan x="75" y="167">DevProject</tspan>
+            </text>
+            <text id="resources" font-family="SanFranciscoDisplay-Medium, San Francisco Display" font-size="13" font-weight="400" fill="#204056">
+                <tspan x="95" y="218">resources</tspan>
+            </text>
+            <text id="css" font-family="SanFranciscoDisplay-Medium, San Francisco Display" font-size="13" font-weight="400" fill="#204056">
+                <tspan x="115" y="243">css</tspan>
+            </text>
+            <text id="index.html" font-family="SanFranciscoDisplay-Medium, San Francisco Display" font-size="13" font-weight="400" fill="#204056">
+                <tspan x="75" y="193">index.html</tspan>
+            </text>
+            <text id="index.css" font-family="SanFranciscoDisplay-Medium, San Francisco Display" font-size="13" font-weight="400" fill="#204056">
+                <tspan x="115" y="269">index.css</tspan>
+            </text>
+            <text id="File-Manager-Graphic" font-family="Oxygen-Regular, Oxygen" font-size="22" font-weight="normal" fill="#39D1B4">
+                <tspan x="263.165039" y="53">File Manager</tspan>
+                <tspan x="234.236328" y="81">Graphical Interface</tspan>
+            </text>
+            <text id="Filesystem-Tree" font-family="Oxygen-Regular, Oxygen" font-size="22" font-weight="normal" fill="#39D1B4">
+                <tspan x="250.752441" y="480">Filesystem Tree</tspan>
+            </text>
+            <use id="Rectangle-3" stroke="#204056" mask="url(#mask-12)" stroke-width="4" fill-opacity="0.300000012" fill="#204056" xlink:href="#path-11"></use>
+            <use id="Rectangle-3-Copy" stroke="#204056" mask="url(#mask-14)" stroke-width="4" fill-opacity="0.300000012" fill="#204056" xlink:href="#path-13"></use>
+            <use id="Rectangle-3-Copy-2" stroke="#204056" mask="url(#mask-16)" stroke-width="4" fill-opacity="0.300000012" fill="#204056" xlink:href="#path-15"></use>
+            <text id="DevProject" font-family="Oxygen-Regular, Oxygen" font-size="13" font-weight="normal" fill="#204056">
+                <tspan x="295.39502" y="569">DevProject</tspan>
+            </text>
+            <text id="resources" font-family="Oxygen-Regular, Oxygen" font-size="13" font-weight="normal" fill="#204056">
+                <tspan x="424.933838" y="651">resources</tspan>
+            </text>
+            <text id="css" font-family="Oxygen-Regular, Oxygen" font-size="13" font-weight="normal" fill="#204056">
+                <tspan x="443.878418" y="711">css</tspan>
+            </text>
+            <text id="index.html" font-family="Oxygen-Regular, Oxygen" font-size="13" font-weight="normal" fill="#204056">
+                <tspan x="172.121826" y="651">index.html</tspan>
+            </text>
+            <text id="index.css" font-family="Oxygen-Regular, Oxygen" font-size="13" font-weight="normal" fill="#204056">
+                <tspan x="426.216064" y="771">index.css</tspan>
+            </text>
+            <text id="…" font-family="Oxygen-Regular, Oxygen" font-size="13" font-weight="normal" fill="#204056">
+                <tspan x="323.296387" y="518">…</tspan>
+            </text>
+            <path d="M328,524 L328,544" id="Line" stroke="#204056" stroke-linecap="square"></path>
+            <path d="M328,584 L328,604" id="Line-Copy" stroke="#204056" stroke-linecap="square"></path>
+            <path d="M203,606 L203,626" id="Line-Copy-2" stroke="#204056" stroke-linecap="square"></path>
+            <path d="M453,726 L453,746" id="Line-Copy-5" stroke="#204056" stroke-linecap="square"></path>
+            <path d="M453,606 L453,626" id="Line-Copy-3" stroke="#204056" stroke-linecap="square"></path>
+            <path d="M453,666 L453,686" id="Line-Copy-4" stroke="#204056" stroke-linecap="square"></path>
+            <path d="M203,605 L453,605" id="Line" stroke="#204056" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
