@@ -65,6 +65,10 @@ ul {
   .list-group-item {
     overflow: scroll;
   }
+
+  .mobile-view {
+    display: none;
+  }
 }
 
 /** Media Queries Tablet and below**/
