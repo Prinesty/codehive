@@ -37,6 +37,7 @@ h3 {
 
 .list-group-item {
   background-color: #d9d9d9;
+  overflow: scroll;
 }
 .list-group-item.active {
   background-color: teal;
