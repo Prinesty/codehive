@@ -51,10 +51,35 @@
             </ul>
             <ul class="navbar-nav">
               <li class="nav-item mr-4">
-                <a class="nav-link" href="#!" data-title="Create a reminder"><i class="far fa-bell fa-lg"></i></a>
+                <a class="nav-link" href="https://calendar.google.com/calendar/u/0/r?pli=1" target="_blank" data-title="Create a reminder"><i class="far fa-bell fa-lg"></i></a>
               </li>
               <li class="nav-item mr-4">
-                <a class="nav-link" href="#!" data-title="Help Center"><i class="far fa-question-circle fa-lg"></i></a>
+                <a class="nav-link" href="#!" data-title="Help Center" data-toggle="modal" data-target="#exampleModal3">
+                  <i class="far fa-question-circle fa-lg"></i>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModal3Label">Help Center</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">×</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex justify-content-around">
+                          <a href="#!" target="_blank" style="color: teal"><i class="fas fa-at fa-2x"></i></a>
+                          <a href="#!" target="_blank" style="color: teal"><i class="fab fa-whatsapp fa-2x"></i></a>
+                          <a href="#!" target="_blank" style="color: teal"><i class="fas fa-mobile-alt fa-2x"></i></a>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
