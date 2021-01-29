@@ -34,60 +34,192 @@
         </div>
       </nav>
 
-      <nav class="navbar bg-dark text-white fixed-bottom">
-        <div class="d-flex flex-row list-group" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">1</a>
-          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">2</a>
-          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">3</a>
-          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">4</a>
+      <nav class="bg-dark text-white fixed-bottom">
+        <div class="d-flex flex-row list-group text-center" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action bg-dark active" id="list-h1-list" data-toggle="list" href="#list-h1" role="tab" aria-controls="h1"><h5>HTML Lesson 1</h5></a>
+          <a class="list-group-item list-group-item-action bg-dark" id="list-h2-list" data-toggle="list" href="#list-h2" role="tab" aria-controls="h2"><h5>Review</h5></a>
+          <a class="list-group-item list-group-item-action bg-dark" href="learn.html#list-1-list"><h5>Done</h5></a>
+          <a class="list-group-item list-group-item-action bg-dark" href="html2.html"><h5>Next Lesson</h5></a>
         </div>
       </nav>
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
-          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-            <div class="container my-5">
-              <h3 class="my-4">Review</h3> <br>
 
-              1. HTML stands for <b>HyperText Markup Language</b> and is used to create the structure and content of a webpage.<hr>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-h1" role="tabpanel" aria-labelledby="list-h1-list">
+          <div class="container my-5">
+            <div class="html">
+              <h3 class="my-4">What is HTML?</h3> <br>
+              HTML provides structure to the content appearing on a website, such as images, text, or videos.
+              Right-click on any page on the internet, choose “Inspect,” and you’ll see HTML in a panel of your screen. <br><br>
+              HTML stands for HyperText Markup Language: <br><br>
+              <ul class="ml-3">
+                <li>A markup language is a computer language that defines the structure and presentation of raw text.</li>
+                <li>In HTML, the computer can interpret raw text that is wrapped in HTML elements.</li>
+                <li>HyperText is text displayed on a computer or device that provides access to other text through links,
+                also known as hyperlinks.<br>
+                 You probably clicked on a couple of hyperlinks on your way to this CodeHive course.</li>
+              </ul>
+              <hr>
+            </div>
+            <div class="html-anatomy">
+              <h3>HTML Anatomy</h3> <br>
+              HTML is composed of elements. These elements structure the webpage and define its content.
+              Let’s take a look at how they’re written. <br><br>
+              The diagram to the below displays an HTML paragraph element. <br>
+              <img class="img-fluid" src="resources/images/html-anatomy.jpg" alt="html anatomy"> <br><br>
+              As we can see, the paragraph element is made up of: <br>
+              - An opening tag <br>
+              - The content <br>
+              - A closing tag <br><br>
+              A tag and the content between it is called an HTML element. <br>
+              There are many tags that we can use to organize and display text and other types of content, like images.
+              <hr>
+            </div>
+            <div class="body">
+              <h3>The Body</h3> <br>
+              One of the key HTML elements we use to build a webpage is the body element. <br>
+              Only content inside the opening and closing body tags can be displayed to the screen. <br>
+              Once the file has a body, many different types of content – including text, images, and buttons – can be added to the body.
+              Here’s what opening and closing body tags look like: <br>
+              <img class="img-fluid" src="resources/images/body.jpg" alt="body">
+              <hr>
+            </div>
+            <div class="html-structure">
+              <h3>HTML Structure</h3> <br>
+              HTML is organized as a collection of family tree relationships. As you saw in the last
+              exercise, we placed (p) tags within (body) tags. When an element is contained inside another
+              element, it is considered the child of that element. The child element is said to be nested
+              inside of the parent element.<br><br>
+              Since there can be multiple levels of nesting, this analogy can be extended to grandchildren,
+              great-grandchildren, and beyond. The relationship between elements and their ancestor and
+              descendent elements is known as hierarchy. <br><br>
+              Let’s consider a more complicated example that uses some new tags: <br>
+              <img class="img-fluid" src="resources/images/structure.jpg" alt="structure"> <br>
+              <hr>
+            </div>
+            <div class="heading">
+              <h3>Headings</h3> <br>
+              Headings in HTML are similar to headings in other types of media. For example, in newspapers,
+              large headings are typically used to capture a reader’s attention. Other times, headings are
+              used to describe content, like the title of a movie or an educational article. <br><br>
 
-              2. Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.<hr>
+              HTML follows a similar pattern. In HTML, there are six different headings, or heading elements.
+              Headings can be used for a variety of purposes, like titling sections, articles, or other forms of content. <br><br>
 
-              3. HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.<hr>
+              The image below is the list of heading elements available in HTML. They are ordered from largest to smallest in size. <br><br>
+              <img class="img-fluid" src="resources/images/heading.jpg" alt="heading"> <br>
+              <hr>
+            </div>
+            <div class="div">
+              <h3>Displaying Text</h3> <br>
+              One of the most popular elements in HTML is the (div) element.<br>
+              div is short for “division” or a container that divides the page into sections.
+              These sections are very useful for grouping elements in your HTML together.
 
-              4. Any visible content should be placed within the opening and closing <b>body</b> tags.<hr>
+              div's don’t inherently have a visual representation, but they are very useful when we want to apply custom styles to our HTML elements.<br>
+              div's allow us to group HTML elements to apply the same styles for all HTML elements inside. <br>
+              div's can contain any text or other HTML elements, such as links, images, or videos.<br><br>
 
-              5. Headings and sub-headings, <b>h1</b> to <b>h6</b> tags, are used to enlarge text.<hr>
+              If you want to display text in HTML, you can use a paragraph or span:<br><br>
+              - Paragraphs (p) contain a block of plain text.<br>
+              - (span) contains short pieces of text or other HTML.<br>
+               They are used to separate small pieces of content that are on the same line as other content.<br><br>
 
-              6. <b>p, span and div</b> tags specify text or blocks.<hr>
+               <h3>Line Breaks</h3>
+               The spacing between code in an HTML file doesn’t affect the positioning of elements in the browser.
+               If you are interested in modifying the spacing in the browser, you can use HTML’s line break element: <b>(br)</b> <br>
+               You can use it anywhere within your HTML code and a line break will be shown in the browser.<br>
+              <hr>
+            </div>
+            <div class="list">
+              <h3>Unordered Lists</h3> <br>
+              In addition to organizing text in paragraph form, you can also display content in an easy-to-read list. <br><br>
 
-              7. The <b>em and strong</b> tags are used to emphasize text. <hr>
+              In HTML, you can use an unordered list tag (ul) to create a list of items in no particular order.
+              An unordered list outlines individual list items with a bullet point. <br><br>
 
-              8. Line breaks are created with the <b>br</b> tag.<hr>
+              The (ul) element should not hold raw text and won’t automatically format raw text into an
+              unordered list of items. Individual list items must be added to the unordered list using
+              the (li) tag. The (li) or list item tag is used to describe an item in a list. <br>
 
-              9. Ordered lists <b>(ol)</b> are numbered and unordered lists <b>(ul)</b> are bulleted.<hr>
+              <img class="img-fluid" src="resources/images/ul.jpg" alt="ul"> <br><br>
+              In the example above, the list was created using the (ul) tag and all individual list items were
+                added using (li) tags.<br>
+                The output will look like this:
+              <ul class="ml-3">
+                <li>Limes</li>
+                <li>Tortillas</li>
+                <li>Chicken</li>
+              </ul> <br><br>
 
-              10. Images <b>(img)</b> and videos <b>(video)</b> can be added by linking to an existing source.<hr>
+              <h3>Ordered Lists</h3> <br>
 
-              If you want to review how to structure HTML in a project and use semantically meaningful elements,
-               watch the video below and follow: <br>
+              Ordered lists (ol) are like unordered lists, except that each list item is numbered.
+              They are useful when you need to list different steps in a process or rank items for first to last. <br><br>
+              You can create the ordered list with the <b>(ol)</b> tag and then add individual list
+              items to the list using (li) tags.<br><br>
 
-              <div class="my-2 embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uxmB8MlO3m8" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              </div> <br><br>
+              <img class="img-fluid" src="resources/images/ol.jpg" alt="ol"> <br><br>
+              The output will look like this:
+              <ol>
+                <li>1. Preheat the oven to 350 degrees.</li>
+                <li>2. Mix whole wheat flour, baking soda, and salt.</li>
+                <li>3. Cream the butter, sugar in separate bowl.</li>
+                <li>4. Add eggs and vanilla extract to bowl.</li>
+              </ol>
+              <hr>
+            </div>
+            <div class="images">
+              <h3>Images</h3>
+              All of the elements you’ve learned about so far (headings, paragraphs, lists, and spans)
+              share one thing in common: they’re composed entirely of text! <br>
+              What if you want to add content to your web page that isn’t composed of text, like images? <br><br>
 
-              In the next lesson, we’ll take the content that you’ve added to this website and transform it into
-               an HTML document that’s ready to go on the web. <br><br><br>
+              The <b>(img)</b> tag allows you to add an image to a web page. Most elements require both opening
+              and closing tags, but the (img) tag is a self-closing tag. Note that the end of the (img) tag has
+              a forward slash /. Self-closing tags may include or omit the final slash — both will render properly. <br><br>
+
+              The <b>(img)</b> tag has a required attribute called <b>src</b>. The src attribute must be set to
+              the image’s source, or the location of the image.
             </div>
           </div>
+          <br><br>
         </div>
+        <div class="tab-pane fade" id="list-h2" role="tabpanel" aria-labelledby="list-h2-list">
+          <div class="container my-5">
+            <h3 class="my-4">Review</h3> <br>
 
+            1. HTML stands for <b>HyperText Markup Language</b> and is used to create the structure and content of a webpage.<hr>
 
+            2. Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.<hr>
 
+            3. HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.<hr>
 
+            4. Any visible content should be placed within the opening and closing <b>body</b> tags.<hr>
+
+            5. Headings and sub-headings, <b>h1</b> to <b>h6</b> tags, are used to enlarge text.<hr>
+
+            6. <b>p, span and div</b> tags specify text or blocks.<hr>
+
+            7. The <b>em and strong</b> tags are used to emphasize text. <hr>
+
+            8. Line breaks are created with the <b>br</b> tag.<hr>
+
+            9. Ordered lists <b>(ol)</b> are numbered and unordered lists <b>(ul)</b> are bulleted.<hr>
+
+            10. Images <b>(img)</b> and videos <b>(video)</b> can be added by linking to an existing source.<hr>
+
+            If you want to review how to structure HTML in a project and use semantically meaningful elements,
+             watch the video below and follow: <br>
+
+            <div class="my-2 embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/uxmB8MlO3m8" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </div>
+          </div>
+          <br><br>
+        </div>
+      </div>
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
