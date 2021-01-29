@@ -38,7 +38,7 @@ h3 {
   border-color: teal;
 }
 .tab-content {
-  line-height: 2.5;
+  line-height: 2;
 }
 ul {
   list-style: inherit;
@@ -47,10 +47,10 @@ ul {
   background-color: #ffffff;
 }
 .card-header {
-  background-color: #d9d9d9;
+  background-color: #343a40;
 }
 .card-header a {
-  color: teal;
+  color: #ffffff;
 }
 
 /** Media Queries Tablet and below**/
