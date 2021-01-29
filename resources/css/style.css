@@ -10,7 +10,7 @@ body {
 [data-title]:after {
    content: attr(data-title);
    position: absolute;
-   top: 3rem;
+   top: 2rem;
    padding: 10px;
    color: #ffffff;
    white-space: nowrap;
