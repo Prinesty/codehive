@@ -54,15 +54,15 @@
                 <a class="nav-link" href="https://calendar.google.com/calendar/u/0/r?pli=1" target="_blank" data-title="Create a reminder"><i class="far fa-bell fa-lg"></i></a>
               </li>
               <li class="nav-item mr-4">
-                <a class="nav-link" href="#!" data-title="Help Center" data-toggle="modal" data-target="#exampleModal3">
+                <a class="nav-link" href="#!" data-title="Help Center" data-toggle="modal" data-target="#help">
                   <i class="far fa-question-circle fa-lg"></i>
                 </a>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="helpLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModal3Label">Help Center</h5>
+                        <h5 class="modal-title" id="help">Help Center</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">×</span>
                         </button>
@@ -102,30 +102,32 @@
         <div class="row">
           <div class="col-4">
             <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action" id="list-0-list" data-toggle="list" href="#list-0" role="tab" aria-controls="0">Introduction and Setup</a>
-              <a class="list-group-item list-group-item-action" id="list-1-list" data-toggle="list" href="#list-1" role="tab" aria-controls="1">Lesson 1: HTML</a>
-              <a class="list-group-item list-group-item-action" id="list-2-list" data-toggle="list" href="#list-2" role="tab" aria-controls="2">Lesson 2: CSS</a>
-              <a class="list-group-item list-group-item-action" id="list-3-list" data-toggle="list" href="#list-3" role="tab" aria-controls="3">Lesson 3: Git and Command Line</a>
-              <a class="list-group-item list-group-item-action" id="list-4-list" data-toggle="list" href="#list-4" role="tab" aria-controls="4">Lesson 4: Display and Positioning</a>
-              <a class="list-group-item list-group-item-action" id="list-5-list" data-toggle="list" href="#list-5" role="tab" aria-controls="5">Lesson 5: Responsive Design</a>
-              <a class="list-group-item list-group-item-action" id="list-6-list" data-toggle="list" href="#list-6" role="tab" aria-controls="6">Lesson 6: CSS Documentation</a>
-              <a class="list-group-item list-group-item-action" id="list-7-list" data-toggle="list" href="#list-7" role="tab" aria-controls="7">Lesson 7: Design and UI Feedback</a>
-              <a class="list-group-item list-group-item-action" id="list-8-list" data-toggle="list" href="#list-8" role="tab" aria-controls="8">Lesson 8: Bootstrap, JS and jQuery</a>
+              <a class="list-group-item list-group-item-action active" id="list-0-list" data-toggle="list" href="#list-0" role="tab" aria-controls="0">Introduction</a>
+              <a class="list-group-item list-group-item-action" id="list-01-list" data-toggle="list" href="#list-01" role="tab" aria-controls="01">Setup</a>
+              <a class="list-group-item list-group-item-action" id="list-1-list" data-toggle="list" href="#list-1" role="tab" aria-controls="1">HTML</a>
+              <a class="list-group-item list-group-item-action" id="list-2-list" data-toggle="list" href="#list-2" role="tab" aria-controls="2">CSS</a>
+              <a class="list-group-item list-group-item-action" id="list-3-list" data-toggle="list" href="#list-3" role="tab" aria-controls="3">Git and Command Line</a>
+              <a class="list-group-item list-group-item-action" id="list-4-list" data-toggle="list" href="#list-4" role="tab" aria-controls="4">Display and Positioning</a>
+              <a class="list-group-item list-group-item-action" id="list-5-list" data-toggle="list" href="#list-5" role="tab" aria-controls="5">Responsive Design</a>
+              <a class="list-group-item list-group-item-action" id="list-6-list" data-toggle="list" href="#list-6" role="tab" aria-controls="6">CSS Documentation</a>
+              <a class="list-group-item list-group-item-action" id="list-7-list" data-toggle="list" href="#list-7" role="tab" aria-controls="7">Design and UI Feedback</a>
+              <a class="list-group-item list-group-item-action" id="list-8-list" data-toggle="list" href="#list-8" role="tab" aria-controls="8">Bootstrap, JS and jQuery</a>
             </div>
           </div>
           <div class="col-8">
             <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade" id="list-0" role="tabpanel" aria-labelledby="list-0-list">
-                <h3>Introduction</h3>
+              <div class="tab-pane fade show active" id="list-0" role="tabpanel" aria-labelledby="list-0-list">
+                <h3>Introduction</h3> <br>
 
                 Welcome to Build Websites from Scratch! <br><br>
 
-                In this course, you will learn everything you need to make working websites!<br>
+                In this course, you will learn everything you need to make working websites!<br><br>
 
                 You'll start by setting up a development environment so that you can build websites on your own computer.<br><br>
 
                 All the best! <br><br>
-
+              </div>
+              <div class="tab-pane fade" id="list-01" role="tabpanel" aria-labelledby="list-01-list">
                 <h3>Setup</h3><br>
 
                 <h5 class="border-bottom">Getting Started with Atom</h5><br>
@@ -148,14 +150,14 @@
                 Atom is a fully customizabletext editor released by GitHub. Since Atom is
                 written in HTML, CSS, and JavaScript, you can customize it yourself once you’ve learned those languages.<br><br>
 
-                <div id="accordion1" role="tablist">
+                <div id="accordion" role="tablist">
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingWindows">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a data-toggle="collapse" href="#collapseWindows" aria-expanded="false" aria-controls="collapseWindows" class="collapsed">
                           Download Atom for Windows
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseWindows" class="collapse" role="tabpanel" aria-labelledby="headingWindows">
                       <div class="card-body">
@@ -169,11 +171,11 @@
                   </div>
                   <div class="card">
                     <div class="card-header" role="tab" id="headingMac">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseMac" aria-expanded="false" aria-controls="collapseMac">
                           Download Atom for Mac OS
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseMac" class="collapse" role="tabpanel" aria-labelledby="headingMac">
                       <div class="card-body">
@@ -199,14 +201,14 @@
                 Whenever you create a new project, no matter how small, you should always make a new folder inside your
                 <b>[projects]</b> directory. You will find that single-file projects can quickly turn into large, multi-folder projects.<br><br>
 
-                <div id="accordion2" role="tablist">
+                <div id="accordion" role="tablist">
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingE1">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a data-toggle="collapse" href="#collapseE1" aria-expanded="false" aria-controls="collapseE1" class="collapsed">
                           Exercise I: Create a dev folder
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseE1" class="collapse" role="tabpanel" aria-labelledby="headingE1">
                       <div class="card-body">
@@ -233,11 +235,11 @@
                   </div>
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingE2">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseE2" aria-expanded="false" aria-controls="collapseE2">
                           Exercise II: Add a file
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseE2" class="collapse" role="tabpanel" aria-labelledby="headingE2">
                       <div class="card-body">
@@ -266,11 +268,11 @@
                   </div>
                   <div class="card">
                     <div class="card-header" role="tab" id="headingE3">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseE3" aria-expanded="false" aria-controls="collapseE3">
                           Exercise III: Open your HTML File in a web browser
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseE3" class="collapse" role="tabpanel" aria-labelledby="headingE3">
                       <div class="card-body">
@@ -289,20 +291,21 @@
               </div>
               <div class="tab-pane fade" id="list-1" role="tabpanel" aria-labelledby="list-1-list">
                 <div class="htmlintro">
-                  <h3>Introduction</h3>
+                  <h3>HTML Introduction</h3> <br>
+
                   Welcome to the first unit of Build Websites from Scratch! <br><br>
 
                   In this unit, you will learn everything you need to make working websites!
                   You’ll start by covering the syntax of HTML and learning about the most important HTML tags.<br><br>
                 </div>
-                <div id="accordion3" role="tablist">
+                <div id="accordion" role="tablist">
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingH1">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a data-toggle="collapse" href="#collapseH1" aria-expanded="false" aria-controls="collapseH1" class="collapsed">
                           1. Introduction to HTML
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseH1" class="collapse" role="tabpanel" aria-labelledby="headingH1">
                       <div class="card-body">
@@ -314,17 +317,17 @@
 
                           Taking the time to solidify the fundamentals of web development will pay off when you begin creating large, complex sites. <br><br>
                         </div>
-                        <a href="html1.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
+                        <a href="html1.html" class="btn btn-md text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
                       </div>
                     </div>
                   </div>
                   <div class="card">
                     <div class="card-header" role="tab" id="headingE2">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseE2" aria-expanded="false" aria-controls="collapseE2">
                           2. HTML Document Standards
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseE2" class="collapse" role="tabpanel" aria-labelledby="headingE2">
                       <div class="card-body">
@@ -337,7 +340,7 @@
 
                           Let’s get started!<br><br>
                         </div>
-                        <a href="html2.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
+                        <a href="html2.html" class="btn btn-md text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
                       </div>
                     </div>
                   </div>
@@ -349,7 +352,7 @@
               </div>
               <div class="tab-pane fade" id="list-2" role="tabpanel" aria-labelledby="list-2-list">
                 <div class="cssintro">
-                  <h3>Introduction</h3>
+                  <h3>CSS Introduction</h3> <br>
 
                   Welcome to the second unit of Build Websites from Scratch! <br><br>
 
@@ -361,14 +364,14 @@
                   You’ll then learn about the syntax of CSS, diving deep into how to select specific elements
                   using CSS selectors and utilizing some of the most important CSS visual rules.<br><br>
                 </div>
-                <div id="accordion4" role="tablist">
+                <div id="accordion" role="tablist">
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingC1">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a data-toggle="collapse" href="#collapseC1" aria-expanded="false" aria-controls="collapseC1" class="collapsed">
                           CSS Setup and Selectors
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseC1" class="collapse" role="tabpanel" aria-labelledby="headingC1">
                       <div class="card-body">
@@ -378,36 +381,17 @@
 
                           Throughout this lesson, you will understand how to select HTML elements with CSS and apply styles to them. <br><br>
                         </div>
-                        <a href="css1.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
-                        <!-- <div class="review">
-                          1. CSS can change the look of HTML elements. In order to do this, CSS must select HTML elements, then apply styles to them.<br><br>
-
-                          2. CSS can select HTML elements by <b>tag, class, or ID</b>.<br><br>
-
-                          3. Multiple CSS classes can be applied to one HTML element.<br><br>
-
-                          4. Classes can be reusable, while IDs can only be used once.<br><br>
-
-                          5. IDs are more specific than classes, and classes are more specific than tags. That means <b>IDs will
-                          override any styles from a class, and classes will override any styles from a tag selector</b>.<br><br>
-
-                          6. Multiple selectors can be chained together to select an element. This raises the specificity,
-                          but can be necessary.<br><br>
-
-                          7. Nested elements can be selected by separating selectors with a space.<br><br>
-
-                          8. Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
-                        </div> -->
+                        <a href="css1.html" class="btn btn-md text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
                       </div>
                     </div>
                   </div>
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingC2">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseC2" aria-expanded="false" aria-controls="collapseC2">
                           CSS Visual Rules
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseC2" class="collapse" role="tabpanel" aria-labelledby="headingC2">
                       <div class="card-body">
@@ -417,38 +401,17 @@
                           By the end of this lesson you’ll be able to change the appearance of a web page using CSS selectors,
                           properties, and values.<br><br>
                         </div>
-                        <a href="css2.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
-                        <!-- <div class="review">
-                          1. CSS declarations are structured into property and value pairs.<br><br>
-
-                          2.The font-family property defines the typeface of an element.<br><br>
-
-                          3. font-size controls the size of text displayed.<br><br>
-
-                          4. font-weight defines how thin or thick text is displayed.<br><br>
-
-                          5. The text-align property places text in the left, right, or center of its parent container.<br><br>
-
-                          6. Text can have two different color attributes: color and background-color. color defines the color
-                          of the text, while background-color defines the color behind the text.<br><br>
-
-                          7. CSS can make an element transparent with the opacity property.<br><br>
-
-                          8. CSS can also set the background of an element to an image with the background-image property.<br><br>
-
-                          9. The !important flag will override any style, however it should almost never be used, as it is extremely
-                           difficult to override.
-                        </div> -->
+                        <a href="css2.html" class="btn btn-md text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
                       </div>
                     </div>
                   </div>
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingC3">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseC3" aria-expanded="false" aria-controls="collapseC3">
                           Article: Create Your First HTML/CSS Project
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseC3" class="collapse" role="tabpanel" aria-labelledby="headingC3">
                       <div class="card-body">
@@ -570,11 +533,11 @@
                   </div>
                   <div class="card">
                     <div class="card-header" role="tab" id="headingC4">
-                      <h5 class="mb-0">
+                      <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseC4" aria-expanded="false" aria-controls="collapseC4">
                           CSS Visual Rules in Chrome Inspector
                         </a>
-                      </h5>
+                      </h6>
                     </div>
                     <div id="collapseC4" class="collapse" role="tabpanel" aria-labelledby="headingC4">
                       <div class="card-body">
@@ -759,15 +722,20 @@
                 <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">
               </div>
               <div class="tab-pane fade" id="list-4" role="tabpanel" aria-labelledby="list-4-list">
-                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">
+              </div>
               <div class="tab-pane fade" id="list-5" role="tabpanel" aria-labelledby="list-5-list">
-                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">
+              </div>
               <div class="tab-pane fade" id="list-6" role="tabpanel" aria-labelledby="list-6-list">
-                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">
+              </div>
               <div class="tab-pane fade" id="list-7" role="tabpanel" aria-labelledby="list-7-list">
-                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">
+              </div>
               <div class="tab-pane fade" id="list-8" role="tabpanel" aria-labelledby="list-8-list">
-                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">
+              </div>
             </div>
           </div>
         </div>

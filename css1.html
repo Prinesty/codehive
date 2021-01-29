@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Metadata to ensure proper rendering and touch zooming on devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Meta name Description is an HTML element that summarizes your web page. -->
+    <meta name="description" content="CSS Setup and Selectors">
+    <!-- To give credit to the person of company that made your website -->
+    <meta name="author" content="Prinesty">
+    <!-- Page Title-->
+    <title>CSS Setup and Selectors | CodeHive</title>
+    <!-- Reset Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <!--Favicon -->
+    <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  </head>
+    <body>
+      <nav class="navbar bg-dark static-top text-white">
+        <div class="container">
+          <a class="navbar-brand" href="learn.html#list-2-list"><img class="img-fluid" src="resources/images/brand.svg" width="100" alt="brand-logo"></a>
+          <h5 class="mx-auto">CSS Setup and Selectors</h5>
+        </div>
+      </nav>
+
+      <nav class="bg-dark text-white fixed-bottom">
+        <div class="d-flex flex-row list-group text-center" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action bg-dark active" id="list-c1-list" data-toggle="list" href="#list-c1" role="tab" aria-controls="c1">CSS Lesson 1</a>
+          <a class="list-group-item list-group-item-action bg-dark" id="list-c2-list" data-toggle="list" href="#list-c2" role="tab" aria-controls="c2">Review</a>
+          <a class="list-group-item list-group-item-action bg-dark" href="learn.html#list-2-list">Finish</a>
+          <a class="list-group-item list-group-item-action bg-dark" href="css2.html">Next Lesson</a>
+        </div>
+      </nav>
+
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-c1" role="tabpanel" aria-labelledby="list-c1-list">
+          <div class="container my-5">
+            
+          </div>
+          <br><br>
+        </div>
+        <div class="tab-pane fade" id="list-c2" role="tabpanel" aria-labelledby="list-c2-list">
+          <div class="container my-5">
+            <h3 class="my-4">Review</h3> <br>
+
+            1. CSS can change the look of HTML elements. In order to do this, CSS must select HTML elements, then apply styles to them.<br><br>
+
+            2. CSS can select HTML elements by <b>tag, class, or ID</b>.<br><br>
+
+            3. Multiple CSS classes can be applied to one HTML element.<br><br>
+
+            4. Classes can be reusable, while IDs can only be used once.<br><br>
+
+            5. IDs are more specific than classes, and classes are more specific than tags. That means <b>IDs will
+            override any styles from a class, and classes will override any styles from a tag selector</b>.<br><br>
+
+            6. Multiple selectors can be chained together to select an element. This raises the specificity,
+            but can be necessary.<br><br>
+
+            7. Nested elements can be selected by separating selectors with a space.<br><br>
+
+            8. Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+
+          </div>
+          <br><br>
+        </div>
+      </div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
