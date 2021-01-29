@@ -157,7 +157,7 @@
                         </a>
                       </h5>
                     </div>
-                    <div id="collapseWindows" class="collapse" role="tabpanel" aria-labelledby="headingWindows" style="">
+                    <div id="collapseWindows" class="collapse" role="tabpanel" aria-labelledby="headingWindows">
                       <div class="card-body">
                         Atom supports Windows 7 or later. Visit <a href="https://github.com/atom/atom/releases/tag/v1.12.9"
                         target="_blank">this</a> webpage and download <b>atom-windows.zip</b>. In a few moments, Atom will appear in
@@ -208,7 +208,7 @@
                         </a>
                       </h5>
                     </div>
-                    <div id="collapseE1" class="collapse" role="tabpanel" aria-labelledby="headingE1" style="">
+                    <div id="collapseE1" class="collapse" role="tabpanel" aria-labelledby="headingE1">
                       <div class="card-body">
                         Below are the steps you need to follow to create a new folder for all of your programming projects.
                         You will also learn how to load a new project folder into Atom. <br>
@@ -288,12 +288,13 @@
                 Congratulations! You can create web pages on your own computer!
               </div>
               <div class="tab-pane fade" id="list-1" role="tabpanel" aria-labelledby="list-1-list">
-                <h3>Introduction</h3>
-                Welcome to the first unit of Build Websites from Scratch! <br><br>
+                <div class="htmlintro">
+                  <h3>Introduction</h3>
+                  Welcome to the first unit of Build Websites from Scratch! <br><br>
 
-                In this unit, you will learn everything you need to make working websites!
-                You’ll start by covering the syntax of HTML and learning about the most important HTML tags.<br><br>
-
+                  In this unit, you will learn everything you need to make working websites!
+                  You’ll start by covering the syntax of HTML and learning about the most important HTML tags.<br><br>
+                </div>
                 <div id="accordion3" role="tablist">
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingH1">
@@ -303,15 +304,17 @@
                         </a>
                       </h5>
                     </div>
-                    <div id="collapseH1" class="collapse" role="tabpanel" aria-labelledby="headingH1" style="">
+                    <div id="collapseH1" class="collapse" role="tabpanel" aria-labelledby="headingH1">
                       <div class="card-body">
-                        You will begin your web development journey by learning what HTML is and how to use it to create websites. <br><br>
+                        <div class="htmlintroduction">
+                          You will begin your web development journey by learning what HTML is and how to use it to create websites. <br><br>
 
-                        HTML is the language used to create the websites you visit every day. All websites, from a simple personal website
-                         to a gigantic web application like Facebook, use HTML in some way. <br><br>
+                          HTML is the language used to create the websites you visit every day. All websites, from a simple personal website
+                           to a gigantic web application like Facebook, use HTML in some way. <br><br>
 
-                        Taking the time to solidify the fundamentals of web development will pay off when you begin creating large, complex sites. <br><br>
-                        <a href="html1.html" class="btn btn-lg text-white" style="background-color:teal" role="button" aria-disabled="true">Go To Lesson</a> <br><br>
+                          Taking the time to solidify the fundamentals of web development will pay off when you begin creating large, complex sites. <br><br>
+                        </div>
+                        <a href="html1.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
                       </div>
                     </div>
                   </div>
@@ -319,41 +322,45 @@
                     <div class="card-header" role="tab" id="headingE2">
                       <h5 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseE2" aria-expanded="false" aria-controls="collapseE2">
-                          2. HTML Document Standard
+                          2. HTML Document Standards
                         </a>
                       </h5>
                     </div>
                     <div id="collapseE2" class="collapse" role="tabpanel" aria-labelledby="headingE2">
                       <div class="card-body">
-                        In the last lesson you learned about the minimum amount of HTML code required to
-                        successfully structure a web page, sometimes referred to as “boilerplate code.” <br><br>
+                        <div class="htmlstandard">
+                          In the last lesson you learned about the minimum amount of HTML code required to
+                          successfully structure a web page, sometimes referred to as “boilerplate code.” <br><br>
 
-                        In this lesson you will learn about some of the most commonly used HTML tags. After completing this
-                         lesson you will be able to make <b>lists, embed images, and link out to other resources</b>. <br><br>
+                          In this lesson you will learn about some of the most commonly used HTML tags. After completing this
+                           lesson you will be able to make <b>lists, embed images, and link out to other resources</b>. <br><br>
 
-                        Let’s get started!<br><br>
-
-                        <a href="html2.html" class="btn btn-lg text-white" style="background-color:teal" role="button" aria-disabled="true">Go To Lesson</a>
+                          Let’s get started!<br><br>
+                        </div>
+                        <a href="html2.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
                       </div>
                     </div>
                   </div>
-                </div> <br>
-
-                A full list of available HTML tags can be found <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">in Mozilla documentation</a>.
+                </div>
+                <div class="htmlfooter mt-4">
+                  A full list of available HTML tags can be found
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">in Mozilla documentation</a>.
+                </div>
               </div>
               <div class="tab-pane fade" id="list-2" role="tabpanel" aria-labelledby="list-2-list">
-                <h3>Introduction</h3>
+                <div class="cssintro">
+                  <h3>Introduction</h3>
 
-                Welcome to the second unit of Build Websites from Scratch! <br><br>
+                  Welcome to the second unit of Build Websites from Scratch! <br><br>
 
-                In this unit, you will learn how to style your websites using CSS! This will allow you to begin making your
-                projects unique and beautiful.<br>
+                  In this unit, you will learn how to style your websites using CSS! This will allow you to begin making your
+                  projects unique and beautiful.<br>
 
-                You’ll start by learning how to create CSS files and hook them up to your HTML pages.<br><br>
+                  You’ll start by learning how to create CSS files and hook them up to your HTML pages.<br><br>
 
-                You’ll then learn about the syntax of CSS, diving deep into how to select specific elements
-                using CSS selectors and utilizing some of the most important CSS visual rules.<br><br>
-
+                  You’ll then learn about the syntax of CSS, diving deep into how to select specific elements
+                  using CSS selectors and utilizing some of the most important CSS visual rules.<br><br>
+                </div>
                 <div id="accordion4" role="tablist">
                   <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingC1">
@@ -365,25 +372,32 @@
                     </div>
                     <div id="collapseC1" class="collapse" role="tabpanel" aria-labelledby="headingC1">
                       <div class="card-body">
-                        Throughout this lesson, you will understand how to select HTML elements with CSS and apply styles to them. <br><br>
+                        <div class="cssintro">
+                          The content on your web page won’t change unless you style it with CSS. In this lesson you’ll
+                          learn how to incorporate CSS in your HTML code and select HTML elements to be styled.<br><br>
 
-                        1. CSS can change the look of HTML elements. In order to do this, CSS must select HTML elements, then apply styles to them.<br><br>
+                          Throughout this lesson, you will understand how to select HTML elements with CSS and apply styles to them. <br><br>
+                        </div>
+                        <a href="css1.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
+                        <!-- <div class="review">
+                          1. CSS can change the look of HTML elements. In order to do this, CSS must select HTML elements, then apply styles to them.<br><br>
 
-                        2. CSS can select HTML elements by <b>tag, class, or ID</b>.<br><br>
+                          2. CSS can select HTML elements by <b>tag, class, or ID</b>.<br><br>
 
-                        3. Multiple CSS classes can be applied to one HTML element.<br><br>
+                          3. Multiple CSS classes can be applied to one HTML element.<br><br>
 
-                        4. Classes can be reusable, while IDs can only be used once.<br><br>
+                          4. Classes can be reusable, while IDs can only be used once.<br><br>
 
-                        5. IDs are more specific than classes, and classes are more specific than tags. That means <b>IDs will
-                        override any styles from a class, and classes will override any styles from a tag selector</b>.<br><br>
+                          5. IDs are more specific than classes, and classes are more specific than tags. That means <b>IDs will
+                          override any styles from a class, and classes will override any styles from a tag selector</b>.<br><br>
 
-                        6. Multiple selectors can be chained together to select an element. This raises the specificity,
-                        but can be necessary.<br><br>
+                          6. Multiple selectors can be chained together to select an element. This raises the specificity,
+                          but can be necessary.<br><br>
 
-                        7. Nested elements can be selected by separating selectors with a space.<br><br>
+                          7. Nested elements can be selected by separating selectors with a space.<br><br>
 
-                        8. Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+                          8. Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+                        </div> -->
                       </div>
                     </div>
                   </div>
@@ -397,29 +411,34 @@
                     </div>
                     <div id="collapseC2" class="collapse" role="tabpanel" aria-labelledby="headingC2">
                       <div class="card-body">
-                        The purpose of CSS is to modify the appearance of web pages. You’ll understand the structure and
-                        syntax of CSS as you create and modify web pages.<br><br>
-                        By the end of this lesson you’ll be able to change the appearance of a web page using CSS selectors,
-                        properties, and values.<br><br>
-                        1. CSS declarations are structured into property and value pairs.<br><br>
+                        <div class="cssrules">
+                          The purpose of CSS is to modify the appearance of web pages. You’ll understand the structure and
+                          syntax of CSS as you create and modify web pages.<br><br>
+                          By the end of this lesson you’ll be able to change the appearance of a web page using CSS selectors,
+                          properties, and values.<br><br>
+                        </div>
+                        <a href="css2.html" class="btn btn-lg text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Lesson</a>
+                        <!-- <div class="review">
+                          1. CSS declarations are structured into property and value pairs.<br><br>
 
-                        2.The font-family property defines the typeface of an element.<br><br>
+                          2.The font-family property defines the typeface of an element.<br><br>
 
-                        3. font-size controls the size of text displayed.<br><br>
+                          3. font-size controls the size of text displayed.<br><br>
 
-                        4. font-weight defines how thin or thick text is displayed.<br><br>
+                          4. font-weight defines how thin or thick text is displayed.<br><br>
 
-                        5. The text-align property places text in the left, right, or center of its parent container.<br><br>
+                          5. The text-align property places text in the left, right, or center of its parent container.<br><br>
 
-                        6. Text can have two different color attributes: color and background-color. color defines the color
-                        of the text, while background-color defines the color behind the text.<br><br>
+                          6. Text can have two different color attributes: color and background-color. color defines the color
+                          of the text, while background-color defines the color behind the text.<br><br>
 
-                        7. CSS can make an element transparent with the opacity property.<br><br>
+                          7. CSS can make an element transparent with the opacity property.<br><br>
 
-                        8. CSS can also set the background of an element to an image with the background-image property.<br><br>
+                          8. CSS can also set the background of an element to an image with the background-image property.<br><br>
 
-                        9. The !important flag will override any style, however it should almost never be used, as it is extremely
-                         difficult to override.
+                          9. The !important flag will override any style, however it should almost never be used, as it is extremely
+                           difficult to override.
+                        </div> -->
                       </div>
                     </div>
                   </div>
@@ -737,23 +756,18 @@
                 </div>
               </div>
               <div class="tab-pane fade" id="list-3" role="tabpanel" aria-labelledby="list-3-list">
-                <a href="#!" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Awaiting Deployment</a>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">
               </div>
               <div class="tab-pane fade" id="list-4" role="tabpanel" aria-labelledby="list-4-list">
-                <a href="#!" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Awaiting Deployment</a>
-              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
               <div class="tab-pane fade" id="list-5" role="tabpanel" aria-labelledby="list-5-list">
-                <a href="#!" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Awaiting Deployment</a>
-              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
               <div class="tab-pane fade" id="list-6" role="tabpanel" aria-labelledby="list-6-list">
-                <a href="#!" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Awaiting Deployment</a>
-              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
               <div class="tab-pane fade" id="list-7" role="tabpanel" aria-labelledby="list-7-list">
-                <a href="#!" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Awaiting Deployment</a>
-              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
               <div class="tab-pane fade" id="list-8" role="tabpanel" aria-labelledby="list-8-list">
-                <a href="#!" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Awaiting Deployment</a>
-              </div>
+                <img class="img-fluid" src="resources/images/trademark.svg" alt="trademark">              </div>
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@
       <nav class="navbar bg-dark static-top text-white">
         <div class="container">
           <a class="navbar-brand" href="learn.html#list-1-list"><img class="img-fluid" src="resources/images/brand.svg" width="100" alt="brand-logo"></a>
-          <h5 class="mx-auto">HTML Document Standard</h5>
+          <h5 class="mx-auto">HTML Document Standards</h5>
         </div>
       </nav>
 
@@ -45,19 +45,111 @@
       <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="list-h3" role="tabpanel" aria-labelledby="list-h3-list">
           <div class="container my-5">
-            <div class="html">
-              <h3 class="my-4">What is HTML?</h3> <br>
-              HTML provides structure to the content appearing on a website, such as images, text, or videos.
-              Right-click on any page on the internet, choose “Inspect,” and you’ll see HTML in a panel of your screen. <br><br>
-              HTML stands for HyperText Markup Language: <br><br>
-              <ul class="ml-3">
-                <li>A markup language is a computer language that defines the structure and presentation of raw text.</li>
-                <li>In HTML, the computer can interpret raw text that is wrapped in HTML elements.</li>
-                <li>HyperText is text displayed on a computer or device that provides access to other text through links,
-                also known as hyperlinks.<br>
-                 You probably clicked on a couple of hyperlinks on your way to this CodeHive course.</li>
-              </ul>
+            <div class="doctype">
+              <h3 class="my-4">Document Type Declaration</h3> <br>
+              HTML files require certain elements to set up the document properly. We can let web browsers know
+              that we are using HTML by starting our document with a document type declaration.<br><br>
+
+              The declaration looks like this:<br>
+              <img class="img-fluid" src="resources/images/doc.jpg" alt="doctype"> <br><br>
+              This declaration is an instruction, and it must be the first line of code in your HTML document.  <br>
+              It tells the browser what type of document to expect, along with what version of HTML is being
+              used in the document. <br>
               <hr>
+            </div>
+            <div class="htmltag">
+              <h3>The html tag</h3> <br>
+              The DOCTYPE declaration provides the browser with two pieces of information (the type of document and
+              the HTML version to expect), but it doesn’t actually add any HTML structure or content. <br><br>
+
+              To create HTML structure and content, we must add opening and closing <b>html</b> tags after declaring
+              <!DOCTYPE html>: <br>
+              <img class="img-fluid" src="resources/images/htmltag.jpg" alt="htmltag"> <br><br>
+
+              Anything between the opening and closing <b>html</b> tags will be interpreted as HTML code. <br>
+              Without these tags, it’s possible that browsers could incorrectly interpret your HTML code. <br>
+              <hr>
+            </div>
+            <div class="head">
+              <h3>The Head</h3> <br>
+              So far you’ve done two things to set up the file properly: <br><br>
+              - Declared to the browser that your code is HTML with <!DOCTYPE html> <br>
+              - Added the HTML element (html) that will contain the rest of your code.<br><br>
+
+              Remember the <b>body</b> tag? The <b>head</b> element is part of this HTML metaphor.
+              It goes above our <b>body</b> element.<br><br>
+
+              The (head) element contains the metadata for a web page. <br>
+              Metadata is information about the page that isn’t displayed directly on the web page.
+              The metadata in the head is information about the page itself. <br>
+
+              The <b>opening and closing head tags</b> typically appear as the first item after your first HTML tag <br>
+              <hr>
+            </div>
+            <div class="title">
+              <h3>Page Titles</h3>
+              A browser’s tab displays the title specified in the <b>title</b> tag. The title tag is always inside of the <b>head</b>. <br><br>
+              <img class="img-fluid" src="resources/images/titletag.jpg" alt="titletag"> <br><br>
+
+              If we were to open a file containing the HTML code in the example above, the browser would display the words <b>My Coding Journal</b> in the title bar (or in the tab’s title).
+              <hr>
+            </div>
+            <div class="anchor">
+              <h3>Linking to Other Web Pages</h3> <br>
+              One of the powerful aspects of HTML (and the Internet), is the ability to link to other web pages. <br><br>
+              You can add links to a web page by adding an anchor element <b>(a)</b> and including the text of
+              the link in between the opening and closing tags. <br><br>
+              <img class="img-fluid" src="resources/images/anchor.jpg" alt="anchor"> <br><br>
+
+              In the example above, the <b>href</b> (hyperlink reference) attribute has been set to the value
+              of the URL <b>https://www.wikipedia.org/</b>
+              <hr>
+
+              <h3>Opening Links in a New Window</h3> <br>
+              The target attribute specifies how a link should open. <br>
+              For a link to open in a new window, the target attribute requires a value of _blank. The target attribute
+              can be added directly to the opening tag of the anchor element, just like the href attribute. <br><br>
+
+              <img class="img-fluid" src="resources/images/blank.jpg" alt="blank"> <br><br>
+              In the example above, setting the target attribute to "_blank" instructs the browser to open the relevant
+              Wikipedia page in a new window. <br>
+              <hr>
+
+              <h3>Linking to Relative Page</h3> <br>
+              Thus far you have learned how to link to external web pages. Many sites also link to internal web pages
+              like Home, About, and Contact. <br>
+              Before we learn how to link between internal pages, let’s establish where our files are stored. <br><br>
+              <img class="img-fluid" src="resources/images/root.jpg" alt="root"> <br><br>
+              The example above shows three different files — <b>about.html, contact.html, and index.html</b> in one folder. <br><br>
+
+              HTML files are often stored in the same folder, as shown in the example above. If the browser is currently
+              displaying index.html, it also knows that about.html and contact.html are in the same folder. Because the
+              files are stored in the same folder, we can link web pages together using a relative path. <br><br>
+              <img class="img-fluid" src="resources/images/anchorlink.jpg" alt="anchorlink"> <br><br>
+              In this example, the <b>a</b> tag is used with a relative path to link from the current HTML file to the
+                <b>contact.html</b> file in the same folder. On the web page, Contact will appear as a link. <br><br>
+                The <b>./</b> in <b>./contact.html</b> tells the browser to look for the file in the current folder.<br>
+              <hr>
+
+              <h3>Linking to Same Page</h3> <br>
+              How do we make it easier for a user to jump to different portions of our page? <br>
+
+              When users visit our site, we want them to be able to click a link and have
+              the page automatically scroll to a specific section.<br><br>
+
+              In order to link to a target on the same page, we must give the target an <b>id</b>, like this: <br><br>
+              <img class="img-fluid" src="resources/images/id.jpg" alt="id"> <br><br>
+
+              In this example, the <b>p</b> element is assigned an id of “top” and the <b>h1</b> element is assigned “bottom.” <br>
+              An id can be added to most elements on a webpage.<br><br>
+
+              An id should be descriptive to make it easier to remember the purpose of a link. The target link is a
+              string containing the # character and the target element’s id. <br><br>
+
+              <img class="img-fluid" src="resources/images/idhash.jpg" alt="idhash"> <br><br>
+
+              In the example above, the links to <b>p id="top"</b> and <b>h1 id="bottom"</b> are embedded in an ordered list.
+              An id is especially helpful for organizing content belonging to a div!
             </div>
           </div>
           <br><br>
