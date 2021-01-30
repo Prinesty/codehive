@@ -296,6 +296,9 @@
                   Welcome to the first unit of Build Websites from Scratch! <br><br>
                   In this unit, you will learn everything you need to make working websites! <br><br>
                   You’ll start by covering the syntax of HTML and learning about the most important HTML tags.<br><br>
+                  Finally, you’ll build two websites completely from scratch on your computer. Your work may
+                  not be pretty at the end of this unit, but it will be completely functional. That’s no small feat! <br><br>
+                  Good luck! <br><br>
                 </div>
                 <div id="accordion" role="tablist">
                   <div class="card mb-4">
@@ -320,7 +323,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card mb-4">
                     <div class="card-header" role="tab" id="headingE2">
                       <h6 class="mb-0">
                         <a class="collapsed" data-toggle="collapse" href="#collapseE2" aria-expanded="false" aria-controls="collapseE2">
@@ -344,8 +347,30 @@
                       </div>
                     </div>
                   </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingP1">
+                      <h6 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseP1" aria-expanded="false" aria-controls="collapseP1">
+                          3. Project
+                        </a>
+                      </h6>
+                    </div>
+                    <div id="collapseP1" class="collapse" role="tabpanel" aria-labelledby="headingP1">
+                      <div class="card-body">
+                        You learned some of the most popular HTML tags and how they are displayed in a web browser.
+                        These tags lay the groundwork for all websites you create in the future.
+                        You then learned how to develop and view websites on your own computer. <br><br>
+
+                        You will build two websites completely from scratch on your computer <br><br>
+                        <b>1. A Travel Blog.</b> <br><br>
+                        <b>2. Soup and Salad restaurant.</b> <br><br>
+                        You've got this! <br><br>
+                        <a href="htmlproject.html" class="btn btn-md text-white" style="background-color: teal" role="button" aria-disabled="true">Go To Projects</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="htmlfooter mt-4">
+                <div class="htmlfooter my-4">
                   <b>Important Tip:</b> A full list of available HTML tags can be found
                   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">in Mozilla documentation</a>.
                 </div>
@@ -543,30 +568,30 @@
                     </div>
                     <div id="collapseC4" class="collapse" role="tabpanel" aria-labelledby="headingC4">
                       <div class="card-body">
-                        <h3>Introduction</h3>
+                        <h3>Introduction</h3> <br>
 
                         Browser developer tools allow web developers to quickly collect important information on most websites.
-                        These tools are available within most major web browsers, like Chrome, Safari, and Firefox, to name a few.<br>
+                        These tools are available within most major web browsers, like Chrome, Safari, and Firefox, to name a few.<br><br>
 
                         Because Google Chrome is the preferred browser for many professional developers, we’ll learn how to use
-                        the browser developer tools within Google Chrome, known as Chrome DevTools. <br><br>
+                        the browser developer tools within Google Chrome, known as Chrome DevTools. <br>
+                        <hr>
 
-                        <h3>Step 1: Accessing DevTools</h3>
+                        <h3>Step 1: Accessing DevTools</h3> <br>
 
                         The quickest way of accessing DevTools in Chrome is to navigate to any website (like this one)
-                        and right click (press control and click for a single button mouse) anywhere on the page. <br>
+                        and right click (press <b>[control]</b> and click for a single button mouse) anywhere on the page. <br><br>
 
                         Upon doing so, a menu will appear directly beside the area you clicked on. In the menu, select <b>“Inspect.”</b>
                         This will automatically launch DevTools within your browser. DevTools will appear as a window on
                         either the bottom or right-hand side of your screen. It should look something like this: <br><br>
 
                         <img class="img-fluid" src="resources/images/devtools.webp" alt="devtools"><br>
+                        You should see the <b>Elements, Console, Sources, and Network</b> tabs, among many others.<br>
+                        The rest of this article will focus exclusively on the <b>[Elements]</b> tab. <br>
+                        <hr>
 
-                        You should see the (Elements, Console, Sources, and Network) tabs, among many others.<br>
-
-                        The rest of this article will focus exclusively on the <b>Elements</b> tab. <br><br>
-
-                        <h3>Step 2: Using DevTools to View CSS Styles</h3>
+                        <h3>Step 2: Using DevTools to View CSS Styles</h3><br>
 
                         DevTools can provide you with a lot of information about a website, but it’s particularly exceptional
                         at examining a page’s HTML elements, along with the CSS styles for those respective elements. Let’s try it out! <br><br>
@@ -574,9 +599,9 @@
                         1. Open an incognito Chrome browser (in the browser’s menu, click on <b>“File”</b> then <b>“New Incognito Window”</b>).
                         This will allow you to read this article while completing the following steps. <br><br>
 
-                        2. Navigate to Codecademy’s homepage (make sure you are logged out). <br><br>
+                        2. Navigate to CodeHive’s homepage (make sure you are logged out). <br><br>
 
-                        3. Right click (or control and click simultaneously) on any text on the page.
+                        3. Right click (or <b>[control]</b> and click simultaneously) on any text on the page.
                         (This article uses screenshots from a previous version of the Codecademy home page.
                         Your home page may look different from the one shown in the screenshots.)<br><br>
 
@@ -604,39 +629,38 @@
 
                         <img class="img-fluid" src="resources/images/select-element.webp" alt="select-element"><br><br>
 
-                        11. On the right hand side of DevTools, click on the tab named Styles (if you’re not already on
+                        11. On the right hand side of DevTools, click on the tab named <b>[Styles]</b> (if you’re not already on
                          it) — this tab displays all of the CSS styles associated with the element highlighted in the
                           left side of DevTools.<br><br>
 
-                        12. Scroll down in the Styles tab, notice that some CSS styles are crossed out with a horizontal
+                        12. Scroll down in the <b>[Styles]</b> tab, notice that some CSS styles are crossed out with a horizontal
                          black line.<br><br>
 
                          <img class="img-fluid" src="resources/images/unused-styles.webp" alt="unused-styles"><br><br>
 
-                         13. Remember, the Styles tab shows all styles applied to that element (rules can often be
+                         13. Remember, the <b>[Styles]</b> tab shows all styles applied to that element (rules can often be
                          overwritten by more specific rules, which causes the horizontal black line through some
                          CSS rules, denoting that that rule is not being used).<br><br>
 
-                         14. To instead view only the styles applied to that specific element, click on the Computed
-                          tab directly next to the Styles tab in the right pane. <br>
-
+                         14. To instead view only the styles applied to that specific element, click on the <b>[Computed]</b>
+                          tab directly next to the <b>[Styles]</b> tab in the right pane. <br>
                           In this pane, you will see only the styles that are being applied to that element, also
                           known as the computed styles.<br>
-
-                           (If the Computed tab is not appearing for you, your browser may be sized too small.
+                           (If the <b>[Computed]</b> tab is not appearing for you, your browser may be sized too small.
                            Expand the width of the browser until it appears.) <br><br>
 
                           <img class="img-fluid" src="resources/images/computed-tab.webp" alt="computed-tab"><br><br>
+                          <hr>
 
-                        <h3>Step 3: Modifying CSS Styles with DevTools</h3>
+                        <h3>Step 3: Modifying CSS Styles with DevTools</h3><br>
 
                         DevTools is also useful for modifying existing CSS rules and previewing those changes
                         directly on the page you’re viewing.<br><br>
 
-                        To try it out, click again on the Styles tab in the right pane of DevTools (feel free
-                        to use the Codecademy website again). <br>
+                        To try it out, click again on the <b>[Styles]</b> tab in the right pane of DevTools (feel free
+                        to use the CodeHive website again). <br><br>
                         Scroll down to a CSS rule (one that is not crossed out with a black line), click on the
-                        value of any applied CSS rule, change the value, and press enter on your keyboard.
+                        value of any applied CSS rule, change the value, and press <b>enter</b> on your keyboard.
                         You should see the change automatically update on the page.<br><br>
 
                         <img class="img-fluid" src="resources/images/edit-a-style.webp" alt="edit-a-style"><br><br>
@@ -649,19 +673,20 @@
                          when modifying color values, DevTools will provide you with a color picker to help you select a color.)<br><br>
 
                         3. DevTools is only a sandbox tool, meaning that any changes you make to the web page will not be saved,
-                        so make sure to write down any changes you’d like to make when using DevTools for your own web page! <br><br>
+                        so make sure to write down any changes you’d like to make when using DevTools for your own web page! <br>
+                        <hr>
 
-                        <h3>Step 4: Add CSS Styles with DevTools</h3>
+                        <h3>Step 4: Add CSS Styles with DevTools</h3><br>
 
                         In addition to modifying existing CSS rules, you can add new CSS rules as well. Let’s continue using DevTools
-                        on the Codecademy homepage. <br><br>
+                        on the CodeHive homepage. <br><br>
 
                         1. Locate some text on the home page (i.e. find a heading, paragraph, link, etc.).<br><br>
 
                         2. Right click on the text and click “Inspect” in the menu that appears. DevTools will highlight the
                         corresponding HTML element in its left pane.<br><br>
 
-                        3. Take a look at the Styles tab and click on the + icon in the top-right corner of the right pane &ndash;
+                        3. Take a look at the <b>[Styles]</b> tab and click on the <b>+</b> icon in the top-right corner of the right pane;
                         notice that this creates a new, empty CSS rule for that element.<br><br>
 
                         4. Within the element’s selector, click and add a new CSS declaration. The following is an example
@@ -675,11 +700,12 @@
                         In the future, try this technique on your own website(s) as you build them from the ground up. Building
                         with DevTools can result in a more efficient workflow, as it can help you avoid repeatedly saving and
                          viewing changes manually.<br><br>
+                         <hr>
 
-                        <h3>Step 5: Modify HTML with DevTools</h3>
+                        <h3>Step 5: Modify HTML with DevTools</h3><br>
 
                         DevTools also lets you directly modify the HTML content of a web page. Let’s try this out one more time
-                        on the Codecademy homepage. <br><br>
+                        on the CodeHive homepage. <br><br>
 
                         1. Again, right click on a piece of text on the homepage and click “Inspect” in the menu that appears.<br><br>
 
@@ -688,33 +714,34 @@
 
                         3. In DevTools, double click on the text between the opening and closing tags of the text you right-clicked on.<br><br>
 
-                        4. Change the heading to say something else, like your name, or “Codecademy”, and press enter.<br><br>
+                        4. Change the heading to say something else, like your name, or “CodeHive”, and press <b>enter</b>.<br><br>
 
                         <img class="img-fluid" src="resources/images/edit-an-element.webp" alt="edit-an-element"><br>
 
                         At this point, you should see the text change!<br><br>
 
-                        You can also add HTML of your own as well. Let’s add an (h2) element directly below the element you just modified. <br><br>
+                        You can also add HTML of your own as well. Let’s add an <b>h2</b> element directly below the element you just modified. <br><br>
 
                         1. Right click on the element you just modified, a menu should appear. Click on “Edit as HTML.” (You can also delete
                          elements using this menu.)<br><br>
 
-                        2. A large text field should appear. Directly edit the HTML by adding an (h2) element below with the text of your choice.<br><br>
+                        2. A large text field should appear. Directly edit the HTML by adding an <b>h2</b> element below with the text of your choice.<br><br>
 
-                        3. To complete/view your changes, click on any other element in the left window pane or press command and enter at the
+                        3. To complete/view your changes, click on any other element in the left window pane or press <b>command</b> and <b>enter</b> at the
                         same time (on a Mac keyboard).<br><br>
 
                         What happens to the web page? Remember, these are sandboxed changes, so your changes will not be saved, nor permanently
                         affect the website you are applying changes to.<br><br>
+                        <hr>
 
-                        <h3>Review</h3>
+                        <h3>Review</h3><br>
 
                         The Chrome web browser provides you with robust web developer tools known as DevTools. With DevTools, you can view a web
                         page’s existing DOM elements and associated styles, as well as modify and preview changes you make to the web page,
-                        resulting in an efficient workflow. <br>
-
+                        resulting in an efficient workflow.
                         If you’re interested in learning more about DevTools, visit the official documentation
-                        at <a href="https://developer.chrome.com/devtools" target="_blank">https://developer.chrome.com/devtools</a>.
+                        at <a href="https://developer.chrome.com/devtools" target="_blank">https://developer.chrome.com/devtools</a>. <br><br>
+                        Happy coding!
                       </div>
                     </div>
                   </div>
