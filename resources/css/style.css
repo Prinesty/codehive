@@ -76,13 +76,19 @@ ul {
     line-height: normal;
     font-size: 1rem;
   }
-  .mobile-view {
+  .laptop {
     display: none;
   }
+  .mobile {
+    visibility: visible;
+  }
 }
-/** Media Queries Tablet and below**/
+/** Media Queries Tablet and above**/
 @media only screen and (min-width: 576px) {
   .warning {
+    display: none;
+  }
+  .mobile {
     display: none;
   }
 }
