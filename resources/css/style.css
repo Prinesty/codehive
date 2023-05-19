@@ -62,9 +62,9 @@ ul {
 
 .umbrella {
   background-image: url("../images/umb.png");
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 
