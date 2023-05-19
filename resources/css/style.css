@@ -48,10 +48,16 @@ ul {
   background-color: #ffffff;
 }
 .card-header {
-  background-color: #343a40;
+  background-color: #004369;
 }
 .card-header a {
   color: #ffffff;
+}
+.card-body {
+  background-color: #fdfce9;
+}
+.card-body a {
+  text-decoration: none;
 }
 
 .scrollspy-example {
