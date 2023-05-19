@@ -36,10 +36,10 @@ h3 {
 }
 .list-group-item.active {
   background-color: #004369 ;
-  border-color: teal;
+  border-color: #fdfce9;
 }
 .tab-content {
-  line-height: 2;
+  line-height: 3;
 }
 ul {
   list-style: inherit;
