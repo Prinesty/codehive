@@ -44,16 +44,14 @@ h3 {
 ul {
   list-style: inherit;
 }
-.jumbotron {
-  background-color: #ffffff;
-}
 .card-header {
   background-color: #004369;
 }
 .card-header a {
   color: #ffffff;
 }
-.card-body {
+.card-body
+.jumbotron {
   background-color: #fdfce9;
 }
 .card-body a {
