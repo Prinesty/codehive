@@ -60,10 +60,18 @@ ul {
     overflow: auto;
 }
 
+.umbrella {
+  background-image: url("../images/umbrella.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 /** Media Queries Tablet and below**/
 @media only screen and (max-width: 576px) {
   .big-display {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .list-group-item {
     overflow: scroll;
