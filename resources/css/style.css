@@ -35,7 +35,7 @@ h3 {
   line-height: 1.5;
 }
 .list-group-item.active {
-  background-color: teal;
+  background-color: #fdfce9;
   border-color: teal;
 }
 .tab-content {
@@ -59,14 +59,12 @@ ul {
     height: 600px;
     overflow: auto;
 }
-
 .umbrella {
   background-image: url("../images/umb.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
 }
-
 
 /** Media Queries Tablet and below**/
 @media only screen and (max-width: 576px) {
