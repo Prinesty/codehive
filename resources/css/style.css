@@ -29,13 +29,13 @@ h3 {
   font-family: 'PT Sans', sans-serif;
 }
 .list-group-item {
-  background-color: #d9d9d9;
+  background-color: #fdfce9;
   font-family: 'PT Sans', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
 }
 .list-group-item.active {
-  background-color: #fdfce9;
+  background-color: #004369 ;
   border-color: teal;
 }
 .tab-content {
