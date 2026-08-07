@@ -45,7 +45,7 @@ ul {
   list-style: inherit;
 }
 .jumbotron {
-  background-color: #0a341f;
+  background-color: #ffffff;
 }
 .card-header {
   background-color: #004369;
@@ -66,7 +66,7 @@ ul {
     overflow: auto;
 }
 .umbrella {
-  background-image: url("../images/PJ.jpeg");
+  background-image: url("../images/umb.png");
   background-position: top;
   background-repeat: repeat;
   background-size: auto;
